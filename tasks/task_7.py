@@ -1,8 +1,8 @@
-working_hours = ...  # здесь Ваш код
+working_hours: int = int(input("Введите кол-во отработанных часов в месяц: "))
 
-hourly_rate = ...  # здесь Ваш код
+hourly_rate: int = 176
 
-salary = hourly_rate * working_hours
+salary: int = hourly_rate * working_hours
 
-print(...)  # допишите код
-print(...)  # допишите код
+print("Ваша почасовая ставка:", hourly_rate)
+print("Заработная плата в месяц:", salary)

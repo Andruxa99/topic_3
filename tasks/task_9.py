@@ -1,5 +1,5 @@
-number = ...  # здесь Ваш код
+number = float(input("Введите число: "))
 
-square_root = ...  # здесь Ваш код
+square_root: float = number ** 0.5
 
-print(...)  # допишите код
+print("Квадратный корень числа", number, "равен", square_root)
